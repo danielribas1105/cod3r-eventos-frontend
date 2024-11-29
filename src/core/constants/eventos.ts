@@ -1,5 +1,4 @@
-import { Evento } from "../event"
-import { Id } from "../shared"
+import { Evento } from "../evento"
 
 /* fglgo67oy64-euks9lz8arg-ekqsb7ez3df
 2f4we629dfj-ax2qm7amnec-twgj73wt6di

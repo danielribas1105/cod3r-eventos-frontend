@@ -1,4 +1,4 @@
-export default function Evento() {
+export default function PaginaEvento() {
    return (
       <div>
          Evento
