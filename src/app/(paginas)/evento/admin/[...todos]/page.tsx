@@ -1,5 +1,5 @@
 'use client'
-import { DashboardEvento } from "@/components/evento/DashboardEvento";
+import { DashboardEvento } from "@/components/evento/dashboardEvento";
 import { FormSenhaEvento } from "@/components/evento/formSenhaEvento";
 import { Evento, Convidado, eventos } from "@/core";
 import { use, useEffect, useState } from "react";
@@ -29,7 +29,7 @@ export default function PaginaAdminEvento(props: any) {
 
    return (
       <div className="flex flex-col items-center">
-         <span>{evento ? (<DashboardEvento/>) : (<FormSenhaEvento/>) }</span>
+         <span>{evento ? (<DashboardEvento evento={evento}/>) : (<FormSenhaEvento/>) }</span>
       </div>
    );
 }

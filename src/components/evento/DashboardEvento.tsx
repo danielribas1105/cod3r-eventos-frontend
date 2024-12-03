@@ -1,7 +1,16 @@
-export function DashboardEvento() {
+import { Evento } from "@/core";
+import { InformacoesEvento } from "./informacoesEvento";
+
+export interface DashboardEventoProps {
+   evento: Evento,
+}
+
+export function DashboardEvento(props: DashboardEventoProps) {
    return (
       <div>
-         Dashboard Evento
+         <div>
+            <InformacoesEvento evento={props.evento}/>
+         </div>
       </div>
    )
 }
